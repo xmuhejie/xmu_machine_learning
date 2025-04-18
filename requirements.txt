@@ -16,3 +16,24 @@ setuptools
 notebook
 ipykernel
 jupyterlab
+
+# 国内主流镜像源
+# 1.阿里云镜像：https://mirrors.aliyun.com/pypi/simple/
+# 2.清华大学镜像： https://pypi.tuna.tsinghua.edu.cn/simple/
+# 3.中国科技大学镜像：https://pypi.mirrors.ustc.edu.cn/simple/
+# 4.华为云镜像：https://mirrors.huaweicloud.com/repository/pypi/simple/
+# 5.豆瓣镜像：https://pypi.doubanio.com/simple/
+
+# 永久配置国内镜像源方法：找到或者创建pip配置文件，在不同的操作系统中，pip 配置文件的路径不同：
+# 1.windows：%APPDATA%\pip\pip.ini，通常路径为 C:\Users\<Your-Username>\AppData\Roaming\pip\pip.ini，打开配置文件并添加如下内容：
+# [global] 
+# index-url = https://pypi.tuna.tsinghua.edu.cn/simple # 主镜像源
+# extra-index-url =
+#     https://mirrors.aliyun.com/pypi/simple/  # 额外镜像源 1
+#     https://pypi.mirrors.ustc.edu.cn/simple/  # 额外镜像源 2
+#     https://mirrors.huaweicloud.com/repository/pypi/simple/  # 额外镜像源 3
+#     https://pypi.doubanio.com/simple/  # 额外镜像源 4
+# 2.Linux/macOS：~/.config/pip/pip.conf 或 ~/.pip/pip.conf
+# 验证配置是否成功：
+# pip config get global.index-url
+

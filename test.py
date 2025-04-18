@@ -2,7 +2,7 @@ import sys
 import pkg_resources
 
 def test_py():
-    assert "第一次学习量化"
+    assert 1 + 1 == 2
 # 输出Python版本
 print(f"Python version: {sys.version}")
 # 输出Python解释器路径

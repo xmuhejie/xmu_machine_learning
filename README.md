@@ -7,7 +7,7 @@
 1.新建一个cond环境：conda create -n quant python=3.10即可
 2.激活conda环境：conda activate quant
 3.先将requirements.txt文件下载到当前目录的文件夹中即可，然后输入：pip install -r requirements.txt即可安装全部包，若是觉得安装比较慢的话可以考虑增加清华镜像源或者阿里镜像源：
-pip install -r requirements.txt i https://pypi.tuna.tsinghua.edu.cn/simple/
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/
 
 ## 运行策略
 

@@ -10,6 +10,7 @@ scipy
 joblib
 PySocks
 lightgbm
+setuptools
 
 # Install Jupyter Notebook and related dependencies
 notebook

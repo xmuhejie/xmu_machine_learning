@@ -1,7 +1,7 @@
 import sys
 import pkg_resources
 
-def test_py():
+def test_example():
     assert 1 + 1 == 2
 # 输出Python版本
 print(f"Python version: {sys.version}")
@@ -13,11 +13,12 @@ for dist in pkg_resources.working_set:
     print(f"{dist.project_name}=={dist.version}")
 
 # 写入txt文件保存安装的包及其版本
-with open("packages.txt", "w", encoding="utf-8") as f:
-    # 写入python版本信息
-    f.write(f"Python version: {sys.version}\n")
-    f.write(f"Python executable: {sys.executable}\n")
-    # 写入已安装的包信息
-    f.write(f"Installed packages and versions:\n")
-    for dist in pkg_resources.working_set:
-        f.write(f"{dist.project_name}=={dist.version}\n")
+def test_packages_txt():
+    with open("packages.txt", "w", encoding="utf-8") as f:
+        # 写入python版本信息
+        f.write(f"Python version: {sys.version}\n")
+        f.write(f"Python executable: {sys.executable}\n")
+        # 写入已安装的包信息
+        f.write(f"Installed packages and versions:\n")
+        for dist in pkg_resources.working_set:
+            f.write(f"{dist.project_name}=={dist.version}\n")

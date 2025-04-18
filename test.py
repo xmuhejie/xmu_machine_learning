@@ -1,6 +1,8 @@
 import sys
 import pkg_resources
 
+def test_py():
+    return "第一次学习量化"
 # 输出Python版本
 print(f"Python version: {sys.version}")
 # 输出Python解释器路径

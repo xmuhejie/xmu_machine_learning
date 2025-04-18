@@ -8,4 +8,4 @@
 pip install -r requirements.txt i https://pypi.tuna.tsinghua.edu.cn/simple/
 
 ## 运行策略
-1.pytrhon 你的文件当前路径或者绝对路径，看你是否添加了环境变量，最后使用绝对路径
+1.python 你的文件当前路径或者绝对路径，看你是否添加了环境变量，最后使用绝对路径

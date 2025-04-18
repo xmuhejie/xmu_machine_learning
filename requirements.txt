@@ -35,5 +35,5 @@ jupyterlab
 #     https://pypi.doubanio.com/simple/  # 额外镜像源 4
 # 2.Linux/macOS：~/.config/pip/pip.conf 或 ~/.pip/pip.conf
 # 验证配置是否成功：
-# pip config get global.index-url
+# pip config get global.index-url or pip config get global.extra-index-url
 

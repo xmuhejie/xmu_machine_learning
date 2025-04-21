@@ -11,7 +11,7 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/或�
 
 ## 运行策略
 
-在终端激活环境后输入：python 你的文件当前路径或者绝对路径，看你是否添加了环境变量，最后使用绝对路径
+在终端激活环境后输入：python .\加上相对路径或者直接输入绝对路径，看你是否添加了环境变量，最后使用绝对路径
 
 ## 已有策略
 * 海龟策略

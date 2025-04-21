@@ -16,6 +16,9 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/或�
 ## 已有策略
 * 海龟策略
 * RSI策略
+* 布林带策略
+* 机器学习策略
+* 动量因子策略
 
 ## 许可证
 

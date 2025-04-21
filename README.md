@@ -13,6 +13,10 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/或�
 
 在终端激活环境后输入：python 你的文件当前路径或者绝对路径，看你是否添加了环境变量，最后使用绝对路径
 
+## 已有策略
+* 海龟策略
+* RSI策略
+
 ## 许可证
 
 本项目采用 [MIT 许可证](LICENSE) 开源。
